@@ -1,0 +1,42 @@
+# Ignore macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore temporary files
+*.bak
+*.swp
+*~.nib
+*.tmp
+*.t?
+
+# Ignore log, cache, and temp directories
+log/
+tmp/
+.cache/
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.rbc
+.ruby-*/*/config
+
+# Ignore Bundler dependencies
+.bundle/
+vendor/bundle
+
+# Ignore gem build artifacts
+*.gem
+*.gemspec~
+pkg/
+.yardoc/
+doc/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore RubyMine project files
+/.ruby-gemset
+/.ruby-version
+/.idea/
+

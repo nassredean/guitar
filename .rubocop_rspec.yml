@@ -1,0 +1,5 @@
+require: rubocop-rspec
+
+inherit_gem:
+  rubocop-rspec:
+    - config/default.yml

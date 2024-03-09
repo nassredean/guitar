@@ -1,0 +1,12 @@
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+inherit_from:
+  - .rubocop_rspec.yml
+
+AllCops:
+  TargetRubyVersion: 3.2.1
+  NewCops: enable
+  Exclude:
+    - "spec/fixtures/**/*"
+    - ".gem/**/*"
